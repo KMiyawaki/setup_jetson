@@ -1,6 +1,6 @@
 #!/bin/bash
 # make swapfile
-sudo fallocate -l 4G /var/swapfile
+sudo fallocate -l 6G /var/swapfile
 sudo chmod 600 /var/swapfile
 sudo mkswap /var/swapfile
 sudo swapon /var/swapfile

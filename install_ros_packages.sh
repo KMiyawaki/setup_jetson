@@ -21,3 +21,6 @@ sudo apt-get install -y --no-install-recommends ros-${TARGET_ROS}-rosbridge-suit
 sudo apt-get install -y --no-install-recommends ros-${TARGET_ROS}-teleop-twist-joy
 sudo apt-get install -y --no-install-recommends ros-${TARGET_ROS}-teleop-twist-keyboard
 sudo apt-get install -y --no-install-recommends ros-${TARGET_ROS}-xacro
+cd ~/catkin_ws/src/
+git clone https://github.com/aamirhatim/twist_filter.git
+cd ~/catkin_ws && catkin_make
