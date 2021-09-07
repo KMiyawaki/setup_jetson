@@ -56,6 +56,7 @@ $ free -h
               total        used        free      shared  buff/cache   available
 Mem:           3.9G        1.0G        1.3G        3.5M        1.5G        2.6G
 Swap:          5.9G        666M        5.3G
+$ sudo ln -s /usr/include/opencv4/ /usr/include/opencv # fix compile error ros packages using cv_bridge
 ```
 
 ## Stop jetcard display service
