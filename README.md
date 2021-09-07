@@ -52,6 +52,7 @@ $ ./init_workspace.sh
 $ ./install_ros_packages.sh
 $ ./install_ros_web.sh
 $ ./install_ros_deep_learning.sh
+$ ./install_camera_override.sh
 $ free -h
               total        used        free      shared  buff/cache   available
 Mem:           3.9G        1.0G        1.3G        3.5M        1.5G        2.6G
