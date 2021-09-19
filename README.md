@@ -40,11 +40,12 @@ $ ./install_ros_packages.sh
 $ ./install_ros_web.sh
 $ ./install_ros_deep_learning.sh
 $ ./install_camera_override.sh
+$ ./add_user_groups.sh
 $ ./make_swapfile.sh 
 $ free -h
               total        used        free      shared  buff/cache   available
-Mem:           3.9G        1.0G        1.3G        3.5M        1.5G        2.6G
-Swap:          5.9G        666M        5.3G
+Mem:           3.9G        825M        2.4G         23M        656M        2.9G
+Swap:          7.9G          0B        7.9G
 $ sudo ln -s /usr/include/opencv4/ /usr/include/opencv # fix compile error ros packages using cv_bridge
 ```
 
@@ -97,6 +98,7 @@ $ ./start_x11.sh
 ```shell
 $ cd ~/setup_jetson
 $ ./install_vnc.sh
+$ sudo reboot
 ```
 
 ## Test and build SSD-Mobilenet

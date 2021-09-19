@@ -9,7 +9,7 @@ sudo apt-get install -y --no-install-recommends python3-pip
 sudo apt-get install -y --no-install-recommends python3-setuptools
 sudo apt-get install -y --no-install-recommends zip unzip
 sudo apt-get install -y --no-install-recommends x11-apps x11-utils x11-xserver-utils dbus-x11
-sudo apt-get install -y --no-install-recommends install libxss1
+sudo apt-get install -y --no-install-recommends libxss1
 
 # emacs
 if [ ! -d ~/.emacs.d ]; then
