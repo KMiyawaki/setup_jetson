@@ -99,6 +99,9 @@ $ ./start_x11.sh
 ```shell
 $ cd ~/setup_jetson
 $ ./install_vnc.sh
+...
+***Input VNC password***
+# Input your vnc password
 $ sudo reboot
 ```
 
