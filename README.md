@@ -40,7 +40,7 @@ $ ./init_workspace.sh
 $ ./install_ros_packages.sh
 $ ./install_ros_web.sh
 $ ./install_ros_deep_learning.sh
-$ ./install_camera_override.sh
+$ ./install_camera_overrides.sh
 $ ./add_user_groups.sh
 $ ./make_swapfile.sh 
 $ free -h
