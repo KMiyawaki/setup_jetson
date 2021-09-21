@@ -16,6 +16,7 @@
 $ cd
 $ git clone https://github.com/KMiyawaki/setup_jetson.git
 $ cd ~/setup_jetson
+$ ./setup_launcher.sh
 $ ./install_basic_packages.sh
 $ ./install_vscode_extensions.sh
 $ ./install_python_packages.sh
